@@ -53,7 +53,7 @@ p {
     height: auto;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.4);
-    background-image: url(../images/donation1.jpg);
+    background-image: url(../images/donation3.jpg);
     background-blend-mode: multiply;
     background-repeat: no-repeat;
     background-size: cover;
@@ -149,4 +149,35 @@ p {
     color: #FF5959;
     background: #FEE;
     border: 1px solid #FF5959;
+}
+
+form {
+    padding: 20px;
+    margin-top: 20px;
+}
+
+form>input[type='email'] {
+    border: none;
+    background: #D9D9D9;
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    background: #0B0D17;
+    padding: 40px 0;
+    margin-top: 20px;
+}
+
+footer>h5 {
+    color: #FF5959;
+    font-size: 36px;
+    font-family: Lobster;
+    font-weight: 400;
+}
+
+footer>p {
+    color: #D9DBE1;
+    font-size: 14px;
+    font-family: Manrope;
 }
